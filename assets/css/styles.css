@@ -1,3 +1,5 @@
+body {
+}
 
 h1, h2, h3, h4, h5, h6, menu {
     font-family: 'Catamaran', Helvetica, Arial, sans-serif;
@@ -9,4 +11,11 @@ h1, h2, h3, h4, h5, h6, menu {
 
 p, footer {
     font-family: 'Mulish', Helvetica, Arial, sans-serif;
+}
+
+.first-page {
+    margin-top: -20px;
+    background-image: url("/assets/img/bg-pattern.png"), linear-gradient(to right, rgb(218,36,49), rgba(122,67,151));
+    background-repeat: repeat, no-repeat;
+    /* height: 100vh; */
 }
