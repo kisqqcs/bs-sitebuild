@@ -14,8 +14,32 @@ p, footer {
 }
 
 .first-page {
-    margin-top: -20px;
     background-image: url("/assets/img/bg-pattern.png"), linear-gradient(to right, rgb(218,36,49), rgba(122,67,151));
     background-repeat: repeat, no-repeat;
     /* height: 100vh; */
+}
+
+.main-navbar {
+    margin-left: 14rem;
+}
+
+.nav-container {
+    margin-left: 14rem;
+}
+
+.doubleMobilImg {
+    width: 432px;
+    height: 868px;
+    background-image: url("/assets/img/demo-screen-1.jpg"), url("/assets/img/phone.png");
+    background-size: 56%, 65%;
+    background-repeat: no-repeat, no-repeat;
+    background-position: center, center ;
+}
+
+.second-page, .fifth-page {
+    background: #FDC740;
+}
+
+.fourth-page {
+    background-image: url("/assets/img/bg-cta.jpg");
 }

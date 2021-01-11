@@ -11,44 +11,43 @@
 </head>
 <body>
     <main>
-        <div class="first-page min-vh-100 mt-0 px-5">
+        <div class="first-page min-vh-100 px-5">
             <!-- Navbar  -->
-            <nav class="navbar navbar-expand-lg sticky-top">
+             <nav class="main-navbar navbar navbar-expand-lg sticky-top">
                 <a class="navbar-brand text-warning col px-md-5" href="./index.html">Start Bootstrap</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainMenu" aria-controls="mainMenu" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="mainMenu">
-                    <ul class="list-inline">
+                <div class="nav-container collapse navbar-collapse" id="mainMenu">
+                    <ul class="nav">
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="#">Download</a>
+                            <a class="nav-link text-white text-uppercase font-weight-light" href="#download">Download</a>
                         </li>
                         <li class="nav-item">
-                           <a class="nav-link  text-white" href="#">Features</a>
+                           <a class="nav-link  text-white text-uppercase font-weight-light" href="#features">Features</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="#">Contact</a>
+                            <a class="nav-link text-white text-uppercase font-weight-light" href="#contact">Contact</a>
                         </li>
                     </ul>
                 </div>
             </nav>
+            <!-- Landing Page -->
             <div class="container">
                 <div class="row">
-                    <div class="col-6 text-center">
+                    <div class="col-5 text-center mt-3 my-0">
                         <h1>New Age is an app landing page that will help you beautifully
-                            showcase your new mobila app, or anything else!
+                            showcase your new mobile app, or anything else!
                         </h1>
                         <button>Start now for free!</button>
                     </div>
-                    <div class="col-6">
-                        <!-- <img src="/assets/img/phone.png" alt="Phone">
-                        <img src="/assets/img/demo-screen-1.jpg" alt=""> -->
-
+                    <div class="col-5 doubleMobilImg">
                     </div>
                 </div>
             </div>
         </div>
-        <div class="second-page">
+        <!-- Discover what all the buzz -page -->
+        <div class="second-page min-vh-100 px-5" id="download">
             <div class="container">
                 <div class="row">
                     <h1>Discover what all the buzz is about</h1>
@@ -60,7 +59,8 @@
                 </div>
             </div>
         </div>
-        <div class="third-page">
+        <!-- Unlimited Features - page -->
+        <div class="third-page min-vh-100 px-5" id="features">
             <div class="container">
                 <div class="row">
                     <h1>Unlimited Features, Unlimited Fun</h1>
@@ -108,12 +108,14 @@
                 </div>
             </div>
         </div>
-        <div class="fourth-page">
+        <!-- Stop Waiting page -->
+        <div class="fourth-page min-vh-100 px-5">
             <h1>Stop waiting.</h1>
             <h1>Start building.</h1>
             <button>Let's Get Started</button>
         </div>
-        <div class="fifth-page">
+        <!-- We heart new friends page -->
+        <div class="fifth-page min-vh-100 px-5" id="contact">
             <div class="container">
                 <div class="row">
                     <h1>We heart new friends!</h1>
@@ -124,6 +126,7 @@
             </div>
         </div>
     </main>
+    <!-- Footer -->
     <footer>
         <div class="container">
             <div class="row">
